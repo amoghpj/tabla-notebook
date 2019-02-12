@@ -1,0 +1,68 @@
+\documentclass{tufte-book} 
+\usepackage{devanagari}
+
+\def\samaindent{\parindent=0.5in}
+\def\dnitem#1{\noindent\llap{#1\space}\leftskip\parindent}
+
+\begin{document}
+
+\dnsamaveda
+
+{\dn
+\chapter{rUpaka}}
+
+\subsection{ {\dn moharA}}
+
+{\dn \dnnum
+{\dnsamaveda \samaindent
+\dnitem{2}
+
+tira\^{ki.ta}{1}takatA tira\^{ki.ta}{2}DAti|\\
+DAti\^{raki}{3}.taDA tira\^{ki.ta}{4}DAti|\\
+DAti\^{raki}{5}.taDA tira\^{ki.ta}{6}Dati|\\
+\hspace{0.25in} \^{DA}{7} \hspace{0.5in} \^{.a}{8} \hspace{0.25in}|\\
+DAti\^{raki}{9}.taDA tira\^{ki.ta}{10}DAti|\\
+\hspace{0.25in} \^{DA}{11} \hspace{0.5in} \^{.a}{12} \hspace{0.25in}|\\
+DAti\^{raki}{13}.taDA tira\^{kita}{14}DAti||\footnote<{This is hard to get right if it is slowed down. Play it as
+described, per matra.}>
+\\}}
+
+
+
+{\dn \dnnum
+{\dnsamaveda \samaindent
+\dnitem{3}
+
+DAtiraki.taDA tiraki.taDAti|
+
+DAtiraki.tataka tAtiraki.tataka|
+
+DAtiraki.tataka tAtiraki.tataka|\footnote<{Plain repetition}>
+
+tiraki.tatakatA tiraki.taDAti DA|
+
+tiraki.tatakatA tiraki.taDAti DA|
+
+tiraki.tatakatA tiraki.taDAti||\footnote<{Last repetition of tihai does not have the final dha!}>
+
+}}
+
+
+{\dn\chapter{ tIna tAla}}
+
+{\dn\chapter{ JapatAla}}
+
+\subsection{{\dn pe"sakArA}}
+\noindent
+{\dn 
+
+DIk.da Di.mtA | DADA Di.mtA Di.mnA |
+
+.akataa DADA | Di.mtA Di.mnaa .akaDA |
+
+tIk.da ti.mtA | tAtA ti.mtaa ti.mnA |
+
+.akatA DADA | Di.mta Di.mnA .akaDA ||
+
+}
+\end{document}
