@@ -1,5 +1,6 @@
 \documentclass{tufte-book} 
 \usepackage{devanagari}
+\usepackage{amsmath}
 
 \def\samaindent{\parindent=0.5in}
 \def\dnitem#1{\noindent\llap{#1\space}\leftskip\parindent}
@@ -28,7 +29,6 @@ described, per matra.}>
 \\}}
 
 
-
 {\dn \dnnum
 {\dnsamaveda \samaindent
 \dnitem{3}
@@ -44,6 +44,85 @@ tiraki.tatakatA tiraki.taDAti DA|
 tiraki.tatakatA tiraki.taDAti DA|
 
 tiraki.tatakatA tiraki.taDAti||\footnote<{Last repetition of tihai does not have the final dha!}>
+
+}}
+
+\subsection{ {\dn kamAlI cakraDAra parana (AdA cAratAla rUpaka)}}
+
+
+{\dn \dnnum
+{\dnsamaveda %\samaindent
+\dnitem{1}\footnote<{28-11-09}>
+
+k.rDAk.r DAkatta | DAtiraki.tataka DA | DAtiraki.tataka DA |
+
+DAtiraki.tataka tAtiraki.tataka | Di.mDi.m ti.tati.ta | k.rDAti.ta katti.ta |
+
+DAtiraki.taDA ti.tikata | DA DA | DA .a | k.rDAti.ta katti.ta |
+
+DAtiraki.taDA ti.tikata | DA DA | DA .a | k.rDAti.ta katti.ta |
+
+DAtiraki.taDA ti.takata | DA DA | DA .a ||  {\NormalFont <$\times$>} 3
+
+}}
+
+{\dn\chapter{ eka tAla}}
+
+\subsection{{\dn kAyadA \dnnum 1}}
+
+{\dn \dnnum
+{\dnsamaveda \samaindent
+\dnitem{kAyadA}
+
+Di.taDAGe nADAtiraki.ta Di.taDA.a Di.taDaGe |\\
+nADAtiraki.ta tinAGenA ti.tatAGe nAtAtiraki.ta |\\
+ti.tatA.aDi.taDAGe nADAtiraki.ta DinAGenA |
+
+\dnitem{pala.tA 1}
+
+Di.taDAGe nADAtiraki.ta Di.taDAGe nADAtiraki.ta |\\
+Di.taDAGe nADAtiraki.ta Di.taDAGe nADAtiraki.ta |\\
+Di.taDA.a Di.taDAGe nADAtiraki.ta tinAGenA |\\
+ti.tatAGe nAtAtiraki.ta ti.tatAGe nAtAtiraki.ta |\\
+ti.tatAGe nAtAtiraki.ta Di.taDAGe nAtAtiraki.ta |\\
+Di.taDA.a Di.taDAGe nADAtiraki.ta tinAGenA ||
+
+\dnitem{1-2}
+
+Di.taDAGe  Di.taDAGe Di.taDi.ta Di.taDAGe |\\
+Di.taDAGe nADAtiraki.ta Di.taDAGe nADAtiraki.ta |\\
+Di.taDA.a Di.taDAGe nADAtiraki.ta tinAGenA |\\
+ti.taDAke  ti.tatAke ti.tati.ta ti.tatAke |\\
+ti.tatAGe nAtAtiraki.ta Di.taDAGe nAtAtiraki.ta |\\
+Di.taDA.a Di.taDAGe nADAtiraki.ta tinAGenA ||
+
+\dnitem{1-3}
+
+Di.taDAGe  nADi.tiDA GenADi.ti Di.tiDAGe|\\
+nADAGenA  tinAGenA Di.taDAGe nADAtiraki.ta|\\
+Di.taDA.a Di.taDAGe nADAtiraki.ta tinAGenA |\\
+ti.tatake  nAti.tatA kenAti.ti ti.ti take|\\
+nAtAkenA  tinAGenA Di.taDAGe nADAtiraki.ta|\\
+Di.taDA.a Di.taDAGe nADAtiraki.ta tinAGenA ||
+
+\dnitem{1-4}
+
+Di.taDAGe  tinAGenA Di.taDAGe tinAGenA |\\
+Di.taDAGe nADAtiraki.ta  Di.taDAGe nADAtiraki.ta|\\
+Di.taDA.a Di.taDAGe nADAtiraki.ta tinAGenA |\\
+ti.tatAke  tinAkenA ti.tatAke tinAkenA |\\
+ti.tatAke nAtAtiraki.ta  Di.taDAGe nADAtiraki.ta|\\
+Di.taDA.a Di.taDAGe nADAtiraki.ta tinAGenA ||
+
+\dnitem{tihA{}I}
+
+Di.taDAGe nADAtiraki.ta Di.taDAGe DinAGenA |\\
+DADinA GenADA DinAGenA DA.a |\\
+.aDi.ta DAGenADA tiraki.taDi.ta DAGeDinA |\\
+GenADA DinAGenA DADinA GenADA|\\
+.a.a Di.taGe nADAtiraki.ta Di.taDAgE |\\
+DinAGenA DADinA GenADA DinAGena ||
+
 
 }}
 
