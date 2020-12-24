@@ -1,4 +1,9 @@
-% [[id:8e09a9a1-92fa-4da8-b006-0417cfaf6558][headers:1]]
+#+PROPERTY: header-args:devanagari :tangle tabla-bol.dn :comments link
+* headers
+  :PROPERTIES:
+  :ID:       8e09a9a1-92fa-4da8-b006-0417cfaf6558
+  :END:
+#+begin_src devanagari
 \documentclass{tufte-book} 
 \usepackage{devanagari}
 \usepackage{amsmath}
@@ -8,14 +13,21 @@
 
 \begin{document}
 \dnsamaveda
-% headers:1 ends here
+#+end_src
 
-% [[id:b0d6e2a1-dd1f-4f73-a492-4ef4e7573c58][roopak:1]]
+* roopak
+  :PROPERTIES:
+  :ID:       b0d6e2a1-dd1f-4f73-a492-4ef4e7573c58
+  :END:
+#+begin_src devanagari
 {\dn
 \chapter{rUpaka}}
-% roopak:1 ends here
-
-% [[id:6cfaa744-7fbf-4ddd-835d-f0059b16fceb][Mohara:1]]
+#+end_src
+** Mohara
+   :PROPERTIES:
+   :ID:       6cfaa744-7fbf-4ddd-835d-f0059b16fceb
+   :END:
+#+begin_src devanagari
 \subsection{ {\dn moharA}}
 
 {\dn \dnnum
@@ -48,9 +60,12 @@ tiraki.tatakatA tiraki.taDAti DA|
 tiraki.tatakatA tiraki.taDAti||\footnote<{Last repetition of tihai does not have the final dha!}>
 
 }}
-% Mohara:1 ends here
-
-% [[id:8ebf9727-ce5b-426b-9684-48f0c0a529b6][Kamali chakradhar paran:1]]
+#+end_src
+** Kamali chakradhar paran
+   :PROPERTIES:
+   :ID:       8ebf9727-ce5b-426b-9684-48f0c0a529b6
+   :END:
+#+begin_src devanagari
 \subsection{ {\dn kamAlI cakraDAra parana (AdA cAratAla rUpaka)}}
 
 
@@ -69,13 +84,19 @@ DAtiraki.taDA ti.tikata | DA DA | DA .a | k.rDAti.ta katti.ta |
 DAtiraki.taDA ti.takata | DA DA | DA .a ||  {\NormalFont <$\times$>} 3
 
 }}
-% Kamali chakradhar paran:1 ends here
-
-% [[id:8d6b8c82-88af-4fc1-8a93-fc59cf604bc0][ektaal:1]]
+#+end_src
+* ektaal
+  :PROPERTIES:
+  :ID:       8d6b8c82-88af-4fc1-8a93-fc59cf604bc0
+  :END:
+#+begin_src devanagari
 {\dn\chapter{ eka tAla}}
-% ektaal:1 ends here
-
-% [[id:6a3e3597-31bd-426b-82cb-838f725da20c][kaayda:1]]
+#+end_src
+** kaayda
+   :PROPERTIES:
+   :ID:       6a3e3597-31bd-426b-82cb-838f725da20c
+   :END:
+#+begin_src devanagari
 \subsection{{\dn kAyadA \dnnum 1}}
 
 {\dn \dnnum
@@ -132,17 +153,26 @@ GenADA DinAGenA DADinA GenADA|\\
 DinAGenA DADinA GenADA DinAGena ||
 
 }}
-% kaayda:1 ends here
-
-% [[id:9e751d45-0887-4086-aa4e-c1bbf810eb3c][teen taal:1]]
+#+end_src
+* teen taal
+  :PROPERTIES:
+  :ID:       9e751d45-0887-4086-aa4e-c1bbf810eb3c
+  :END:
+#+begin_src devanagari
 {\dn\chapter{ tIna tAla}}
-% teen taal:1 ends here
-
-% [[id:c7ef4519-4c61-4e66-8b2b-6e61fc1bd479][Japtaal:1]]
+#+end_src
+* Japtaal
+  :PROPERTIES:
+  :ID:       c7ef4519-4c61-4e66-8b2b-6e61fc1bd479
+  :END:
+#+begin_src devanagari
 {\dn\chapter{ JapatAla}}
-% Japtaal:1 ends here
-
-% [[id:1d4cc68a-d527-45fa-8d48-a660300c5b90][Peshkara:1]]
+#+end_src
+** Peshkara
+   :PROPERTIES:
+   :ID:       1d4cc68a-d527-45fa-8d48-a660300c5b90
+   :END:
+#+begin_src devanagari
 \subsection{{\dn pe"sakArA}}
 \noindent
 {\dn 
@@ -155,9 +185,12 @@ tIk.da ti.mtA | tAtA ti.mtaa ti.mnA |
 
 .akatA DADA | Di.mta Di.mnA .akaDA ||
 }
-% Peshkara:1 ends here
-
-% [[id:135d85e8-d773-4216-8a40-66fcec6f9fbc][Tilvada:1]]
+#+end_src
+* Tilvada
+  :PROPERTIES:
+  :ID:       135d85e8-d773-4216-8a40-66fcec6f9fbc
+  :END:
+#+begin_src devanagari
 {\dn
 \chapter{tilavaa.daa}}
 \subsection{{\dn Tekaa}}
@@ -168,12 +201,22 @@ DA tiraki.ta Di.m tat | Di.mDA DADAGe ti.m ti.m |
 
 tA tiraki.ta Di.m tat | Di.mDA DADAGe Di.m Di.m ||
 }
-% Tilvada:1 ends here
+#+end_src
+* footer
+  :PROPERTIES:
+  :ID:       e9dc86e4-a234-452f-a773-d32b0b385969
+  :END:
+#+begin_src devanagari
+  \vfill
+  \begin{center}
+  \texttt{--Exported automatically from org-mode on \today--}
+  \end{center}
+  \end{document}
+#+end_src
 
-% [[id:e9dc86e4-a234-452f-a773-d32b0b385969][footer:1]]
-\vfill
-\begin{center}
-\texttt{--Exported automatically from org-mode on \today--}
-\end{center}
-\end{document}
-% footer:1 ends here
+* local variables                                                  :noexport:
+
+# Local Variables:
+# eval: (add-hook 'after-save-hook (lambda () (org-babel-tangle) (call-process-shell-command "devnag tabla-bol.dn" nil "*tabla-bol compilation*" t) (call-process-shell-command "pdflatex tabla-bol.tex" nil "*tabla-bol compilation*" t)) nil t)
+# End:
+
